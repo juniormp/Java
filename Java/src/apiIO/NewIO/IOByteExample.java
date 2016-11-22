@@ -1,4 +1,4 @@
-package apiNewIO.example;
+package apiIO.NewIO;
 
 import java.io.File;
 import java.io.FileInputStream;
