@@ -1,4 +1,4 @@
-package threadExample.exercise1;
+package thread.exercise1;
 
 public class ThreadTest {
 

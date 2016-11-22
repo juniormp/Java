@@ -1,4 +1,4 @@
-package threadExample.exercise2;
+package thread.exercise2;
 
 public enum Color {
 

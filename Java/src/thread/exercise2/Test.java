@@ -1,16 +1,22 @@
-package threadExample.exercise2;
+package thread.exercise2;
 
 public class Test {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		Airport gru = new Airport("GRU");
-		Color color;
-		Airplan gol = new Airplan("GOL", gru);
-		Airplan tam = new Airplan("TAM", gru);
-		Airplan azul = new Airplan("AZUL", gru);
+		Airport a = new Airport();
+		Airplan b = new Airplan();
+		
+	
+		
+		b.start();
+		 while(true){
+			 a.start(); 
+		 }
+		
+		
 
-		gru.start();
+		
 
 	}
 

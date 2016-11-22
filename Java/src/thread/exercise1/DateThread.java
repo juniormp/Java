@@ -1,4 +1,4 @@
-package threadExample.exercise1;
+package thread.exercise1;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
